@@ -1,0 +1,38 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/02/19/46/02194648c2d7d02dd5a1d841dc4c8bee.png);
+	background-size: cover;
+	font-family: 'Do Hyeon', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#gamespace {
+	width: 60vw;
+	height: 60vh;
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(4,1fr);
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20%;
+	filter: brightness(0);
+	transition: filter 0.5s;
+}
+
+#control {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	visibility: hidden;
+}
+
+#reset {
+	background-color: #008CBA;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 1.5rem;
+	border-radius: 10%;
+}
